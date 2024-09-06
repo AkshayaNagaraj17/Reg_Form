@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <h1 class="head">STUDENT FORM</h1>
+    <div class="table-enter">
+        <table class="tab1">
+            <tr>
+                <th>Name</th>
+                <td><input id="name"></td>
+            </tr>
+            
+            <tr>
+                <th>Age</th>
+                <td><input id="age"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input id="gender"></td>
+            </tr>
+            <tr>
+                <th>Course</th>
+                <td><input id="course"></td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td><input id="email"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="add()"id="save_button">Save</button></td>
+            </tr>
+           
+        </table>
+    </div>
+    <div class="table-display">
+        <table id="tab2">
+           <thead class="th1"> <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>E-mail</th>
+            </tr>
+            </thead>
+            <tbody id="tab2_tbody">
+
+            </tbody>
+           
+            
+        </table>
+    </div>
+</div>
+
+<script src="/script.js">
+
+</script>
+
+</body>
+</html>

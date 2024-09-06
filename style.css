@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+}
+.tab1,th,td{
+    margin-top: auto;
+    border:2px solid black;
+     border-radius: 3px;
+     border-collapse: collapse;
+}
+#save_button
+{
+    width:100%;
+    background-color:tomato
+}
+.tab2
+{
+   margin-top:20px;
+   border-collapse: collapse;
+}
+.th1,.tb{
+    border-collapse: collapse;
+}

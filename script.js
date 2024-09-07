@@ -20,7 +20,7 @@ function add()
     det4.innerHTML=course.value
 
     var det5=document.createElement("td")
-    det5.innerHTML=email.value+"<button onclick='delete1(event)'>delete<button>"
+    det5.innerHTML=email.value+"<button onclick='delete1(event)'>delete </button> "
     det.append(det1);
     det.append(det2);
     det.append(det3);
